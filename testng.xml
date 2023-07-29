@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <test verbose="2" preserve-order="true" name="C:/Users/Victus/IdeaProjects/springproject/LumaProject">
+        <classes>
+            <class name="LumaTest.AdvancedSearchTest">
+                <methods>
+                    <include name="fillUpAdvancedSearchForm"/>
+                    <include name="fillUpAdvancedSearchFormWithInvalidCredentials"/>
+                </methods>
+            </class>
+            <class name="LumaTest.ContactUsTest">
+                <methods>
+                    <include name="fillUpTheContactUsForm"/>
+                </methods>
+            </class>
+            <class name="LumaTest.CreateAnAccountTest">
+                <methods>
+                    <include name="createAnAccountTest"/>
+                    <include name="createAnAccountWithInvalidEmail"/>
+                    <include name="createAnAccountWithInvalidPasswordOnlyLetters"/>
+                    <include name="createAnAccountWithInvalidPasswordOnlyDigits"/>
+                    <include name="createAnAccountWithInvalidPasswordwithoutUpperCase"/>
+                    <include name="createAnAccountWithInvalidConfPassword"/>
+                </methods>
+            </class>
+            <class name="LumaTest.GearOrderTest">
+                <methods>
+                    <include name="gearOrderTest"/>
+                </methods>
+            </class>
+            <class name="LumaTest.MenClothesTest">
+                <methods>
+                    <include name="fillUpTheMenOrderField"/>
+                </methods>
+            </class>
+            <class name="LumaTest.OrdersAndReturnTest">
+                <methods>
+                    <include name="fillUpOrdersAndReturnForm"/>
+                    <include name="fillUpOrdersAndReturnFormWithInvalidCredentials"/>
+                </methods>
+            </class>
+            <class name="LumaTest.PrivacyAndCookiePolicyTest">
+                <methods>
+                    <include name="checkPrivacyAndCookiePolicyBtn"/>
+                    <include name="checkSearchTermsBtn"/>
+                </methods>
+            </class>
+            <class name="LumaTest.SearchEntireTest">
+                <methods>
+                    <include name="searchAndOrderProductThroughEntireSearch"/>
+                </methods>
+            </class>
+            <class name="LumaTest.SingInTest">
+                <methods>
+                    <include name="signInWithValidCredentials"/>
+                    <include name="signInWithInvalidEmailAddress"/>
+                    <include name="signInWithInvalidPassword"/>
+                </methods>
+            </class>
+            <class name="LumaTest.WomenOrderTest">
+                <methods>
+                    <include name="signInToOrderProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
