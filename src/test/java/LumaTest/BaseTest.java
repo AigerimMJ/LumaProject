@@ -28,8 +28,10 @@ public abstract class BaseTest {
     public AdvancedSearchPage advancedSearchPage;
     public MenClothesOrderPage menClothesOrderPage;
     public GearOrderPage gearOrderPage;
-//    public SearchEntirePage searchEntirePage;
+    public SearchEntirePage searchEntirePage;
     public HoodieAndSweatshirtPage hoodieAndSweatshirtPage;
+    public WomenPage2 womenPage2;
+    public TrainingPage trainingPage;
 
     @BeforeClass
     public void setUpBrowser() {
@@ -48,8 +50,10 @@ public abstract class BaseTest {
         advancedSearchPage = new AdvancedSearchPage();
         menClothesOrderPage = new MenClothesOrderPage();
         gearOrderPage = new GearOrderPage();
-//        searchEntirePage = new SearchEntirePage();
+        searchEntirePage = new SearchEntirePage();
         hoodieAndSweatshirtPage = new HoodieAndSweatshirtPage();
+        womenPage2 = new WomenPage2();
+        trainingPage = new TrainingPage();
 
     }
 
