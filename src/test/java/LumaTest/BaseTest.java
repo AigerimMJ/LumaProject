@@ -32,6 +32,7 @@ public abstract class BaseTest {
     public HoodieAndSweatshirtPage hoodieAndSweatshirtPage;
     public WomenPage2 womenPage2;
     public TrainingPage trainingPage;
+    public WhatsNewPage whatsNewPage;
 
     @BeforeClass
     public void setUpBrowser() {
@@ -54,6 +55,7 @@ public abstract class BaseTest {
         hoodieAndSweatshirtPage = new HoodieAndSweatshirtPage();
         womenPage2 = new WomenPage2();
         trainingPage = new TrainingPage();
+        whatsNewPage = new WhatsNewPage();
 
     }
 

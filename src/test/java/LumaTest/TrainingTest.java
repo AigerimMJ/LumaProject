@@ -10,6 +10,6 @@ public class TrainingTest extends BaseTest{
         driver.navigate().to("https://magento.softwaretestingboard.com/");
         trainingPage.clickTraining();
         elementActions.scrollToElement(trainingPage.confMessage);
-        Assert.assertEquals(trainingPage.confMessage, "Top Videos");
+        Assert.assertTrue(trainingPage.confMessage.isDisplayed());
     }
 }
